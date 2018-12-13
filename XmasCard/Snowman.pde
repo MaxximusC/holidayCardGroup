@@ -4,20 +4,25 @@ class Snowman {
   }
 
   void display() {
+    //ground snow
+    fill(255);
+    ellipse(600, 950, 1200, 600);
+    ellipse(200, 900, 1200, 600);
+    ellipse(500, 1000, 1400, 600);
     //bottom ball
     fill(255);
-    ellipse(285, 450, 220, 200);
+    ellipse(285, 550, 220, 200);
     //arms
     fill(124,98,63);
     quad(205,260,200,290,110,210,105,190);
     quad(350,260,370,290,450,210,445,190);
     //middle ball
     fill(255);
-    ellipse(282,300,170,150);
+    ellipse(282,400,170,150);
     
     //top ball
-    ellipse(280,200,120,100);
-    
+    ellipse(280,300,120,100);
+   
     //arms,  buttons face
     fill(0);
     ellipse(282,275,20,20);//buttons

@@ -25,10 +25,9 @@ public class snowFlake implements snow {
         speed = 5; 
         y = (int)(Math.random()*height);
       }
-    }else{
+    } else {
       w = (float)(Math.random()*5)-1;
       speed = (float)(Math.random()*5)+1;
-      
     }
     y+=speed;
     x+=w;
