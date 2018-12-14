@@ -9,7 +9,7 @@ class XmasTree {
     ypos = yp;
     xlength = l;
     ywidth = w;
-    for (int i = 0; i < 4; i++) // Makes xmas light objects
+    for (int i = 0; i < light.length; i++) // Makes xmas light objects
     {
       light[i] = new XmasLight();
     }

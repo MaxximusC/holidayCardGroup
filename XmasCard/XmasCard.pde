@@ -1,4 +1,4 @@
-XmasTree tree1 = new XmasTree(600, 500, 50, 70); // Create new tree object
+XmasTree tree1 = new XmasTree(700, 600, 50, 70); // Create new tree object
 //XmasTree tree2 = new XmasTree(600, 600, 100, 150); // ONLY ONE TREE'S LIGHTS WILL WORK AT A GIVEN TIME
 int timer = 0; // Keeps tree lights changing color at a steady pace by counting frames\
 snowFlake[] mySnow = new snowFlake[100];
@@ -16,6 +16,7 @@ void setup(){
 void draw(){
   timer++;
   background(0);
+  ellipse(600, 950, 1200, 600);
   tree1.display();
   //tree2.display();
   
